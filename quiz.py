@@ -10,7 +10,6 @@ print("The first initial must be a capital letter of answer")
 print("Add a space between two words")
 score=0
 count=0
-l=set()
 while count<10:
 	x=random.randint(1,len(question)+1)
 	y=question[x]
